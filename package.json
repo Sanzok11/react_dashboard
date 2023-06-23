@@ -1,0 +1,20 @@
+{
+  "name": "experts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "turbo run dev --no-daemon",
+    "build": "turbo run build"
+  },
+  "author": "Sanjok Chaulagain",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.9.8"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "msw": {
+    "workerDirectory": "lyra\\public"
+  }
+}
